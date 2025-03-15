@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'task_widgets/task_bottom_navigation_bar.dart';
+import 'package:hanka4a/views/task_views/task_widgets/my_custom_bottom_navigtation_bar.dart';
 import 'task_widgets/task_view_body.dart';
 
 class TaskView extends StatelessWidget {
@@ -13,7 +12,7 @@ class TaskView extends StatelessWidget {
         padding: EdgeInsets.symmetric(horizontal: 16),
         child: TaskViewBody(),
       ),
-      bottomNavigationBar: TaskBottomNavigationBar(),
+      bottomNavigationBar: MyCustomBottomNavigationBBar(),
     );
   }
 }
