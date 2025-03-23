@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:hanka4a/api_testing/presentation/views/api_testing_view.dart';
+import 'package:hanka4a/utils/service_locator.dart';
 
-import 'views/task_views/task_view.dart';
+
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  setupGetit();
   runApp(const MyApp());
 }
 
@@ -21,7 +25,7 @@ class MyApp extends StatelessWidget {
           secondary: Colors.black45,
         ),
       ),
-      home: const TaskView(),
+      home: const ApiTestingView(),
     );
   }
 }
