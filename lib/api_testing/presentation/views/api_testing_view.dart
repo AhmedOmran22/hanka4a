@@ -21,7 +21,7 @@ class ApiTestingView extends StatelessWidget {
         floatingActionButton: Builder(
           builder: (context) {
             return FloatingActionButton(
-              child: const Icon(Icons.get_app, size: 32, color: Colors.black),
+              child: const Icon(Icons.refresh, color: Colors.black, size: 32),
               onPressed: () {
                 context.read<ApiProductCubit>().getProducts();
               },
