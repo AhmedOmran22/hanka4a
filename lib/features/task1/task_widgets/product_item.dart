@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hanka4a/views/task_views/task_widgets/like_button.dart';
-import 'package:hanka4a/views/task_views/task_widgets/product_image.dart';
+import 'package:hanka4a/features/task1/task_widgets/like_button.dart';
+import 'package:hanka4a/features/task1/task_widgets/product_image.dart';
 
-import '../../../models/product_model.dart';
+import '../models/product_model.dart';
 import 'product_discription_and_price.dart';
 
 class ProductItem extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hanka4a/models/product_model.dart';
+import 'package:hanka4a/features/task1/models/product_model.dart';
 
 class ProductDiscriptionAndPrice extends StatelessWidget {
   const ProductDiscriptionAndPrice({super.key, required this.productModel});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hanka4a/models/product_model.dart';
+import 'package:hanka4a/features/task1/models/product_model.dart';
 import 'package:hanka4a/utils/screen_size.dart';
-import 'package:hanka4a/views/task_views/task_widgets/product_item.dart';
+import 'package:hanka4a/features/task1/task_widgets/product_item.dart';
 
 class SliverGridForProducts extends StatelessWidget {
   const SliverGridForProducts({super.key, required this.productsList});

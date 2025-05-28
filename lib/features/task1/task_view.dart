@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hanka4a/views/task_views/task_widgets/my_custom_bottom_navigtation_bar.dart';
+import 'package:hanka4a/features/task1/task_widgets/my_custom_bottom_navigtation_bar.dart';
 
 class TaskView extends StatelessWidget {
   const TaskView({super.key});

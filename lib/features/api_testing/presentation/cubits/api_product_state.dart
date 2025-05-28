@@ -1,4 +1,4 @@
-import 'package:hanka4a/api_testing/models/api_product_model.dart';
+import 'package:hanka4a/features/api_testing/models/api_product_model.dart';
 
 abstract class ApiProductState {}
 

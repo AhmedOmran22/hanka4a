@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hanka4a/api_testing/models/api_product_model.dart';
-import 'package:hanka4a/api_testing/presentation/cubits/api_product_state.dart';
+import 'package:hanka4a/features/api_testing/models/api_product_model.dart';
+import 'package:hanka4a/features/api_testing/presentation/cubits/api_product_state.dart';
 import 'package:hanka4a/utils/api_service.dart';
 import 'package:hanka4a/utils/failure.dart';
 

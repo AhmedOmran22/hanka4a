@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:hanka4a/views/task_views/task_widgets/select_bbottom_navigation_bar_item.dart';
+import 'package:hanka4a/features/task1/task_widgets/select_bbottom_navigation_bar_item.dart';
 
-import '../../../models/navigation_bar_item_model.dart';
+import '../models/navigation_bar_item_model.dart';
 
 class MyCustomBottomNavigationBBar extends StatefulWidget {
   const MyCustomBottomNavigationBBar({super.key});

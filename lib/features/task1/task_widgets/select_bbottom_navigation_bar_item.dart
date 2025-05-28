@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hanka4a/models/navigation_bar_item_model.dart';
-import 'package:hanka4a/views/task_views/task_widgets/active_bottom_navigation_bar_item.dart';
-import 'package:hanka4a/views/task_views/task_widgets/in_active_bottom_navigation_bar_item.dart';
+import 'package:hanka4a/features/task1/models/navigation_bar_item_model.dart';
+import 'package:hanka4a/features/task1/task_widgets/active_bottom_navigation_bar_item.dart';
+import 'package:hanka4a/features/task1/task_widgets/in_active_bottom_navigation_bar_item.dart';
 
 class SelectNavigationBarItem extends StatelessWidget {
   const SelectNavigationBarItem({

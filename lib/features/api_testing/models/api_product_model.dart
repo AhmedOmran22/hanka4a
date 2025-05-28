@@ -1,6 +1,6 @@
-import 'package:hanka4a/api_testing/models/api_dimensions_model.dart';
-import 'package:hanka4a/api_testing/models/api_meta_model.dart';
-import 'package:hanka4a/api_testing/models/api_review_model.dart';
+import 'package:hanka4a/features/api_testing/models/api_dimensions_model.dart';
+import 'package:hanka4a/features/api_testing/models/api_meta_model.dart';
+import 'package:hanka4a/features/api_testing/models/api_review_model.dart';
 
 class ApiProductModel {
   final num id;

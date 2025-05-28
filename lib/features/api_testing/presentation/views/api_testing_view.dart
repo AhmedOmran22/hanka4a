@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hanka4a/api_testing/presentation/cubits/api_product_cubit.dart';
-import 'package:hanka4a/api_testing/presentation/widgets/api_testing_view_body.dart';
+import 'package:hanka4a/features/api_testing/presentation/cubits/api_product_cubit.dart';
+import 'package:hanka4a/features/api_testing/presentation/widgets/api_testing_view_body.dart';
 import 'package:hanka4a/utils/api_service.dart';
 import 'package:hanka4a/utils/service_locator.dart';
 

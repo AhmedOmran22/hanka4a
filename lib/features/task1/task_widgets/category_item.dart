@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hanka4a/models/category_model.dart';
+import 'package:hanka4a/features/task1/models/category_model.dart';
 
 class CategoryItem extends StatelessWidget {
   const CategoryItem({super.key, required this.categoryModel});

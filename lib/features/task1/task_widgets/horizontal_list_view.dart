@@ -1,8 +1,8 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:hanka4a/models/category_model.dart';
-import 'package:hanka4a/views/task_views/task_widgets/category_item.dart';
+import 'package:hanka4a/features/task1/models/category_model.dart';
+import 'package:hanka4a/features/task1/task_widgets/category_item.dart';
 
 class HorizontalListView extends StatelessWidget {
   const HorizontalListView({super.key, required this.categoriesList});

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hanka4a/models/category_model.dart';
-import 'package:hanka4a/models/product_model.dart';
-import 'package:hanka4a/views/task_views/task_widgets/horizontal_list_view.dart';
-import 'package:hanka4a/views/task_views/task_widgets/sliver_grid_for_products.dart';
-import 'package:hanka4a/views/task_views/task_widgets/sliver_row_text.dart';
+import 'package:hanka4a/features/task1/models/category_model.dart';
+import 'package:hanka4a/features/task1/models/product_model.dart';
+import 'package:hanka4a/features/task1/task_widgets/horizontal_list_view.dart';
+import 'package:hanka4a/features/task1/task_widgets/sliver_grid_for_products.dart';
+import 'package:hanka4a/features/task1/task_widgets/sliver_row_text.dart';
 
 import 'home_sliver_app_bar.dart';
 

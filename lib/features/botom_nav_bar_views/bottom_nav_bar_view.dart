@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hanka4a/views/botom_nav_bar_views/home_view.dart';
-import 'package:hanka4a/views/botom_nav_bar_views/profile_view.dart';
-import 'package:hanka4a/views/botom_nav_bar_views/search_view.dart';
-import 'package:hanka4a/views/botom_nav_bar_views/settings_view.dart';
-import 'package:hanka4a/views/botom_nav_bar_views/custom_nav_bar_widget.dart';
+import 'package:hanka4a/features/botom_nav_bar_views/home_view.dart';
+import 'package:hanka4a/features/botom_nav_bar_views/profile_view.dart';
+import 'package:hanka4a/features/botom_nav_bar_views/search_view.dart';
+import 'package:hanka4a/features/botom_nav_bar_views/settings_view.dart';
+import 'package:hanka4a/features/botom_nav_bar_views/custom_nav_bar_widget.dart';
 import 'package:persistent_bottom_nav_bar/persistent_bottom_nav_bar.dart';
 
 class BottomNavBarView extends StatefulWidget {

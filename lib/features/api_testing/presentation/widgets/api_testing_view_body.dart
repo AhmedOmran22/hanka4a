@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hanka4a/api_testing/presentation/cubits/api_product_cubit.dart';
-import 'package:hanka4a/api_testing/presentation/cubits/api_product_state.dart';
-import 'package:hanka4a/api_testing/presentation/widgets/api_product_item.dart';
+import 'package:hanka4a/features/api_testing/presentation/cubits/api_product_cubit.dart';
+import 'package:hanka4a/features/api_testing/presentation/cubits/api_product_state.dart';
+import 'package:hanka4a/features/api_testing/presentation/widgets/api_product_item.dart';
 
 class ApiTestingViewBody extends StatelessWidget {
   const ApiTestingViewBody({super.key});
